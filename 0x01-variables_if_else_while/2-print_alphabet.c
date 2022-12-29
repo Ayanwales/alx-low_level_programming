@@ -6,18 +6,18 @@
  * Description: print the letters of the alphabet
  *
  * Return: Always 0 (Success)
- * /
+ */
 
- int main(void)
+int main(void)
 {
-	int 1 = 97;
+	int i = 97;
 
-	while ( i < 123)
+	while (i < 123)
 	{
 		putchar(i);
 		i++;
 	}
 	putchar(10);
 
-	return(0);
+	return (0);
 }
