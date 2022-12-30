@@ -6,6 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i, j;
@@ -15,13 +16,13 @@ int main(void)
 
 	while (i < 58)
 	{
-		j = i + i;
-		while (j < 58 )
+		j = i + 1;
+		while (j < 58)
 		{
 			putchar(i);
 			putchar(j);
 
-			if ( i < 56 || j < 57)
+			if (i < 56 || j < 57)
 			{
 				putchar(44);
 				putchar(32);
