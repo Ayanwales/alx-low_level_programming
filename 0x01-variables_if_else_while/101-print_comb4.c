@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print triple combos
  *
@@ -6,9 +7,11 @@
  *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int i, j, k;
+
 	i = 48;
 	j = 48;
 	k = 48;
@@ -16,7 +19,7 @@ int main(void)
 	while (i < 58)
 	{
 		j = i + 1;
-		while ( j < 58)
+		while (j < 58)
 		{
 			k = j + 1;
 			while (j < 58)
