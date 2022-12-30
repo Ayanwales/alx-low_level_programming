@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints hey
@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	char text[10] = "Howardens";
+	char text[5] = "main";
 	int i = 0;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 4; i++)
 	{
 		_putchar(text[i]);
 	}
