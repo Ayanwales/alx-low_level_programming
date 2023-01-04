@@ -20,7 +20,7 @@ void print_times_table(int n)
 				product = row * column;
 				if(column == 0)
 					_putchar(product + '0');
-				else if(product < 10 && j != 0)
+				else if(product < 10 && column != 0)
 				{
 					_putchar(',');
 					_putchar(' ');
