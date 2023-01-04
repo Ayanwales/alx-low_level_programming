@@ -22,7 +22,6 @@ int is_palindrome(char *s)
  *@s:string to calculate the length of 
  *Return: length of the string
  */
-
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
