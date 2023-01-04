@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
  * main - list all natural numbers multiples of 3 and 5
- * below are below 1024
+ *description: below are below 1024
  *
  * Retrun: Always 0.
  */
+
 int main(void)
 {
 	int  num, sum;
