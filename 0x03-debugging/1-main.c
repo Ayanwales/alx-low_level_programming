@@ -8,7 +8,7 @@
 {
 	int i;
 
-	printf("Infinite loop incoming :\n");
+	printf("Infinite loop incoming :(\n");
 
 	i = 0;
 
@@ -17,7 +17,7 @@
 	/* putchar(i); */
 	/*}*/
 
-	print("Infinite loop avoided! \\O/\n");
+	print("Infinite loop avoided!\\O/\n");
 
 	return (0);
 }
