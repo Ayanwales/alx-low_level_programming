@@ -2,6 +2,7 @@
 
 /**
  * wildcmp - Compare strings
+ * description : comparing two strings
  * @s1: pointer to string params
  * @s2 : pointer to string params
  * Return : 0
