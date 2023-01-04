@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - printsfirst 50 Fibonaaci numbers, starting with 1 and 2.
+ * main - prints first 50 Fibonaaci numbers, starting with 1 and 2,
  * separated by a comma followed by a space.
  *
  * Return: Always 0
