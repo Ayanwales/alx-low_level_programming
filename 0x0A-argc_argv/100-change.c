@@ -14,6 +14,7 @@
 int main(int argc, char *argv[])
 {
 	int j = 0, i = 1, coins, change = 0, a;
+	
 	int cents[5] = {25, 10, 5, 2, 1};
 
 	if (argc == 2)
@@ -51,7 +52,9 @@ int main(int argc, char *argv[])
 	else
 	{
 		printf("Error\n");
+
 		return (1);
 	}
+
 	return (0);
 }
