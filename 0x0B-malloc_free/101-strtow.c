@@ -82,7 +82,7 @@ char **strtow(char *str)
 			}
 		}
 
-		else if (c++ === 0)
+		else if (c++ == 0)
 			start = i;
 	}
 
