@@ -54,7 +54,7 @@ char **strtow(char *str)
 
 		return (NULL);
 
-	matrix = (char**) malloc(sizeof(cahr*) * (words + 1));
+	matrix = (char**) malloc(sizeof(char*) * (words + 1));
 
 	if (matrix == NULL)
 
@@ -68,7 +68,7 @@ char **strtow(char *str)
 			{
 				end = i;
 
-				tmp = (charr *) malloc(sizeof(char) * (c + 1));
+				tmp = (char*) malloc(sizeof(char) * (c + 1));
 				if (tmp == NULL)
 
 					return (NULL);
@@ -76,7 +76,7 @@ char **strtow(char *str)
 					*tmp++ = str[start++];
 				*tmp = '\0';
 
-				matrix[k] = tmp -c;
+				matrix[k] = tmp - c;
 				k++;
 				 c = 0;
 			}
