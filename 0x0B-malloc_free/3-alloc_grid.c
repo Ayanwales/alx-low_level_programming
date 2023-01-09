@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * aloc_grid - Write a function that returns a pointer to a 2 dimensional
+ * alloc_grid - Write a function that returns a pointer to a 2 dimensional
  * array of integers.
  *
  * @height: height array
@@ -12,7 +12,7 @@
  * Return: pointer
  */
 
-int **alloc_grid(int width, int height)
+int **alloc_grid(int width,int height)
 {
 	int **s, i, j, k;
 
