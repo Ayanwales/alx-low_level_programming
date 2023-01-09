@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-char *arstostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	int i, n, r = 0, l = 0;
 
@@ -17,7 +17,7 @@ char *arstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	for (i = 0; i < av; i++)
+	for (i = 0; i < ac; i++)
 	{
 		for (n = 0; av[i][n]; n++)
 			i++;
