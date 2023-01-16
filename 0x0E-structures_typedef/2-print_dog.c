@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- * print_dog - prints a struct dog
- * @d:struct to print
+ * print_dog - Datatype of the dog
+ * @d:Direction &my_dog
+ * Return: Always 0.
  */
 
 void print_dog(struct dog *d)
