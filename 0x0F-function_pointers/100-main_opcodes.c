@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - prints its own opcodes
  * @argc: number of arguments
@@ -8,7 +7,6 @@
  *
  * Return: Always 0 (Succcess)
  */
-
 int main(int argc, char *argv[])
 {
 	int bytes, i;
