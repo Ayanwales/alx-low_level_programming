@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * array_iterator - prints each array elem on a new!
- * @array: array
- * @size: how many elem to print
- * @action: pointer to print in regular or hex
- * Return: void
+ * array_iterator - run a function given as a parameter on each array element
+ * @array: array elements -> action.
+ * @size: size of an array
+ * @action: function to run
+ * Return: nothing
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
@@ -15,7 +15,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	if (array != NULL && action != NULL)
 	{
-
 		for (i = 0; i < size; i++)
 		{
 			action(array[i]);
